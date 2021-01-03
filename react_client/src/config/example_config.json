@@ -1,0 +1,8 @@
+{
+  "backendServerUrl": "http://your_server_Ip:your_server_port/",
+  "paginationOffset": 10,
+  "inactivityWatcher": {
+    "INACTIVE_USER_TIME_THRESHOLD": 3600000,
+    "USER_ACTIVITY_THROTTLER_TIME": 10000
+  }
+}
