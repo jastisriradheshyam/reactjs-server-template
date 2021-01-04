@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* 
+html, body, main {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+} */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+}
+
+.not-found {
+  background-color: darkslategrey;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-title {
+  font-size: 4rem;
+}
+
+.toast-custom>div {
+  border-radius: 1rem;
+}
